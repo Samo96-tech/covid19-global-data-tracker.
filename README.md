@@ -27,18 +27,16 @@ A Jupyter Notebook project that fetches, cleans, and visualizes up‑to‑date C
 
 ## 🚀 How to Run
 
-1. **Clone** the repo  
-   
-2. Create & activate a virtual environment
-python3 -m venv venv
-source venv/bin/activate
-pip install -r requirements.txt
+How to run it end‑to‑end:
 
-3. Launch Jupyter and open the notebook
-jupyter notebook
-Then click on covid19_global_data_tracker.ipynb.
+Paste into a Jupyter cell or save as e.g. covid19_global_tracker.py.
 
-4. Run all cells from top to bottom—no edits needed.
+If in Jupyter, just “Run All.”
+
+If as a script:
+
+pip install pandas plotly
+python covid19_global_tracker.py
 
 ---
 
